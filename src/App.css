@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  padding-top:3rem;
+}
+ @media (max-width: 700px) {
+      .body {
+        flex-direction: column;
+      }
+    }
